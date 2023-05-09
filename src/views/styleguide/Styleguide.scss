@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .box-style {
+    width: calc(33.33% - 10px);
+    height: 0;
+    padding-bottom: calc(33.33% - 10px);
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .color-red {
+    background-color: var(--color-red);
+  }
+
+  .color-blue {
+    background-color: var(--color-blue);
+  }
+
+  .color-pink {
+    background-color: var(--color-pink);
+  }
+
+  .color-black {
+    background-color: var(--color-black);
+  }
+
+  .color-violet {
+    background-color: var(--color-violet);
+  }
+
+  .color-orange {
+    background-color: var(--color-orange);
+  }
+
+  .color-yellow {
+    background-color: var(--color-yellow);
+  }
+
+  .color-green {
+    background-color: var(--color-green);
+  }
+
+  .color-white {
+    background-color: var(--color-white);
+  }
+  
+
