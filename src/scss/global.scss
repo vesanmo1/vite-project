@@ -1,9 +1,15 @@
-/*
-Custom properties
-*/
 
+@import "./sass-variables";
 @import "./custom-properties";
+@import "./typography";
 
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    
+  }
+  
 body {
     background-color: MediumSlateBlue;
     color: white;

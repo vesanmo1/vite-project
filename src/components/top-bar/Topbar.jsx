@@ -5,7 +5,7 @@ function Topbar() {
     <>
     <div className="Topbar">
       <header className="Topbar-header">
-        <h3>Este es el Topbar</h3>   
+        <h3 className='topbar'>Este es el Topbar</h3>   
       </header>
     </div>
     </>

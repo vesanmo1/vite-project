@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Merriweather&display=swap');
+
+.Merriweather {
+    font-family: 'Merriweather', serif;
+    color: black;
+}
+
+.IBM {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: black;
+}
+
+.paragraph {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+}
+
+h1,
+.h1 {
+    font-size: 60px;
+}
+
+h2,
+.h2 {
+    font-size: 46px;
+}
+
+h3,
+.h3 {
+    font-size: 34px;
+}
+
+h4,
+.h4 {
+    font-size: 30px;
+}
+
+h5,
+.h5 {
+    font-size: 24px;
+}
+
+h6,
+.h6 {
+    font-size: 16px;
+}
+
+.flexbox{
+    display: flex;
+    gap: 80px;
+}
