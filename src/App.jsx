@@ -1,12 +1,10 @@
 import { Link, Route, Routes, BrowserRouter as Router } from "react-router-dom";
 
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './scss/global.scss';
-import MyTopBar from './components/top-bar/Topbar.scss'
 import Styleguide from './views/styleguide/Styleguide'
 import Topbar from './components/top-bar/Topbar'
+import CheckIcon from './components/icons/Icons'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +17,7 @@ function App() {
 
       <main>
       <Topbar />
+      <CheckIcon className="background-color"></CheckIcon>
       <Router>
         <Routes>
           <Route path="/styleguide" element={<Styleguide />} />
