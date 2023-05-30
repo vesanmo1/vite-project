@@ -8,5 +8,4 @@ function Icons(props) {
 
   );
 }
-
 export default Icons;
